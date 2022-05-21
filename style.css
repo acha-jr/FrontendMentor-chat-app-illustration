@@ -42,7 +42,7 @@ main {
   top: 100px;
 }
 .bright-background {
-  position: absolute;
+  position: fixed;
   width: 33%;
   height: 600px;
   background: linear-gradient(
@@ -56,7 +56,7 @@ main {
   animation: slow-move 7s infinite ease-in-out;
 }
 .light-background {
-  position: absolute;
+  position: fixed;
   right: -10%;
   bottom: 0;
   width: 33%;
@@ -372,16 +372,15 @@ input[type="radio"]:checked + label p::before {
     padding-bottom: 30px;
   }
   .bright-background {
-    top: -50px;
+    top: -200px;
     left: -180px;
     width: 400px;
+    animation: none;
   }
   .light-background {
-    top: 80%;
-    height: 600px;
-    width: 200px;
-    right: 0px;
-    border-radius: 100% 0px 0px 0px;
+    bottom: -400px;
+    width: 400px;
+    right: -180px;
     animation: none;
   }
 }
