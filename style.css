@@ -169,7 +169,7 @@ main {
 }
 .message,
 .dogs {
-  opacity: 0;
+/*   opacity: 0; */
   animation: pop-up 0.3s linear forwards;
 }
 /* @keyframes pop-up {
@@ -322,7 +322,7 @@ input[type="radio"]:checked + label p::before {
   justify-self: left;
   animation: fade-in 1s linear forwards;
   animation-delay: 13s;
-  opacity: 0;
+/*   opacity: 0; */
 }
 /* @keyframes fade-in {
   to {
